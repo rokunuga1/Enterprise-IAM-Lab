@@ -34,6 +34,53 @@ An approved HR termination request is received for an employee whose access must
 - Identity lifecycle management
 - Auditability
 - Separation of duties
+- # Leaver Lifecycle
+
+## Overview
+(Keep your existing content)
+
+## Scenario
+(Keep your existing content)
+
+## Tasks Performed
+(Keep your existing content)
+
+## PowerShell Commands Used
+
+```powershell
+Get-ADUser noah.thompson -Properties Enabled |
+Select Name,Enabled
+
+Get-ADUser noah.thompson |
+Select Name,DistinguishedName
+```
+
+## Evidence
+
+- Screenshot – Noah Thompson account before offboarding
+- Screenshot – Active Directory account disabled
+- Screenshot – PowerShell verification (Enabled = False)
+- Screenshot – User moved to Disabled Users OU
+
+## Offboarding Validation
+
+The employee account was successfully disabled and moved to the **Disabled Users** organizational unit.
+
+PowerShell validation confirmed:
+
+- Account disabled
+- Identity preserved
+- Organizational Unit updated
+- Verified that no application-specific security groups were assigned to the employee at the time of offboarding.
+
+## IAM Best Practices Demonstrated
+
+- Verified HR termination approval before processing the request.
+- Disabled the Active Directory account immediately upon termination.
+- Verified the account status using PowerShell.
+- Moved the user to the Disabled Users Organizational Unit.
+- Preserved the identity object for audit and compliance purposes.
+- Collected evidence to support the completed offboarding process.
 - Evidence-based validation
 
 ## Evidence
