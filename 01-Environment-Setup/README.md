@@ -1,11 +1,19 @@
-# Environment Setup
+# Environment Setup Evidence
 
-This section documents the initial Active Directory environment build.
+This folder contains screenshots documenting the Enterprise IAM lab environment.
 
-## Contents
+## Evidence Included
 
-- Windows Server 2022
-- Active Directory Domain Services
-- DNS
-- Domain Controller
-- VMware Configuration
+- VMware Workstation configuration
+- Windows Server installation
+- Active Directory Domain Services installation
+- Domain Controller promotion
+- DNS configuration
+- Organizational Units (OUs)
+- Active Directory Users and Computers (ADUC)
+- PowerShell verification
+- Initial lab validation
+
+## Purpose
+
+These screenshots demonstrate the successful deployment and validation of the Active Directory lab environment used throughout the IAM project.
