@@ -6,6 +6,8 @@ This section demonstrates a simulated Identity and Access Management (IAM) workf
 
 Although ServiceNow was not connected to this lab, the workflow mirrors how an IAM Analyst would receive, validate, process, document, and close identity requests in a production environment.
 
+> **Note:** This workflow was simulated for portfolio purposes. ServiceNow was used to model enterprise IAM request management and approval processes. Active Directory and PowerShell tasks were performed in the lab environment to mirror production IAM operations.
+
 ---
 
 # Workflow
